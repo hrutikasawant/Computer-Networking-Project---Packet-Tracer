@@ -1,51 +1,61 @@
-# Computer Networking Project - Packet Tracer
+###LAN Setup and Configuration using Cisco Packet Tracer
+📘 Project Overview
 
-## Project Overview
+This project demonstrates a basic Local Area Network (LAN) setup designed and simulated using Cisco Packet Tracer.
+The goal is to understand how multiple devices communicate within a LAN using routers, switches, and IP addressing.
 
-Welcome to the "Computer Networking Project" repository! This project was developed using Packet Tracer version 8.2.1, showcasing a comprehensive network setup. The architecture comprises 8 routers, 8 switches, 6 PCs, and various servers, including DHCP, FTP, TFTP, Email, and SYSLOG. The network is secured by a Firewall ASA 5506, managed through a Wireless LAN Controller, and features a printer, tunnel connections, and VTP connections.
+⚙️ Tools & Technologies
 
-## Key Components
+Software: Cisco Packet Tracer (v8.2.1 or higher)
 
-- **Router Configuration**: Eight routers have been strategically configured to ensure seamless communication within the network.
+Devices Used:
 
-- **Switch Network**: With eight switches, the project emphasizes efficient network switching and management.
+1 Router
 
-- **PC Integration**: Six PCs have been integrated into the network, each playing a unique role in the overall system.
+1 Switch
 
-- **Server Variety**: Utilizing DHCP, FTP, TFTP, Email server, and SYSLOG, this project simulates real-world server scenarios.
+2 PCs
 
-- **Firewall Protection**: The inclusion of ASA 5506 ensures a robust security layer for the entire network.
+Ethernet Cables
 
-- **Wireless Connectivity**: Managed through a Wireless LAN Controller, the network embraces modern wireless technologies.
+Concepts Practiced:
 
-- **Peripheral Devices**: A printer adds a practical touch to the network setup.
+IP Addressing
 
-- **Specialized Connections**: The project includes tunnel connections to link different networks, VTP connections, and basic configurations to enhance network functionality.
+Subnetting
 
-- **Dynamic Host Configuration Protocol (DHCP)**: Enabled on routers to automate IP address assignment.
+Router Configuration
 
-- **VLAN InterRouting**: Implementation of VLANs and inter-routing enhances network segmentation and performance.
+Connectivity Testing (Ping)
 
-- **Visualized Network Structure**: The project provides a visual representation of the network setup, aiding in understanding and analysis.
+🧠 Learning Objectives
 
-## Getting Started
+Understand the structure and working of a LAN network.
 
-To explore and simulate this network on your own, follow these steps:
+Learn how to assign IP addresses to devices.
 
-1. Download and install Packet Tracer version 8.2.1 from the official Cisco Networking Academy website.
+Configure router interfaces and establish network communication.
 
-2. Clone or download this repository to your local machine.
+Test connectivity using ping commands in Packet Tracer.
 
-3. Open the project file in Packet Tracer.
+🚀 Steps Performed
 
-4. Explore the network components, configurations, and connections.
+Created a simple network topology using 2 PCs, 1 switch, and 1 router.
 
-## Contributions
+Assigned static IP addresses to each PC.
 
-Contributions and improvements to this project are welcome! Feel free to fork the repository, make changes, and submit pull requests.
+Configured router interface with an IP address and enabled it.
 
-## Acknowledgments
+Connected devices using straight-through Ethernet cables.
 
-A special thanks to Cisco Packet Tracer for providing a robust platform for network simulation and learning.
+Tested successful communication between devices using ping.
 
-Enjoy exploring the intricacies of this Computer Networking Project! Happy coding!
+📂 Files Included
+File Name	Description
+LAN_Setup_Simulation.pkt	Cisco Packet Tracer project file
+README.md	Project documentation
+📸 Output
+
+Successful ping communication between both PCs.
+
+Verified IP addressing and connectivity through router and switch.
